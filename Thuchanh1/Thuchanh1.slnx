@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="Baitap1/Baitap1.csproj" />
+  <Project Path="Baitap2/Baitap2.csproj" Id="218ae9c8-ce64-4b36-8882-5e82d143d244" />
   <Project Path="MyLib/MyLib.csproj" />
 </Solution>
