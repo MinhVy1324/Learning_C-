@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Baitap1/Baitap1.csproj" />
+  <Project Path="MyLib/MyLib.csproj" />
+</Solution>
