@@ -2,6 +2,7 @@
   <Project Path="Baitap1/Baitap1.csproj" />
   <Project Path="Baitap2/Baitap2.csproj" Id="218ae9c8-ce64-4b36-8882-5e82d143d244" />
   <Project Path="Baitap3/Baitap3.csproj" Id="b476da15-9ecc-4bed-af65-32e211b62080" />
+  <Project Path="Baitap5/Baitap5.csproj" Id="a26b1a33-1e57-4c60-b69e-197b2efcb390" />
   <Project Path="MyLib.Tests/MyLib.Tests.csproj" Id="5d7d87eb-2c66-4c87-b71d-b872266bf3b7" />
   <Project Path="MyLib/MyLib.csproj" />
 </Solution>
