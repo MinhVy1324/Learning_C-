@@ -3,6 +3,10 @@
   <Project Path="Baitap2/Baitap2.csproj" Id="218ae9c8-ce64-4b36-8882-5e82d143d244" />
   <Project Path="Baitap3/Baitap3.csproj" Id="b476da15-9ecc-4bed-af65-32e211b62080" />
   <Project Path="Baitap5/Baitap5.csproj" Id="a26b1a33-1e57-4c60-b69e-197b2efcb390" />
+  <Project Path="Baitap6/Baitap6.csproj" Id="e7f809cb-2abf-4700-a20b-edb8b460e4b3" />
+  <Project Path="Baitap7/Baitap7.csproj" Id="5248ff27-c828-4eda-9dd6-2fc4f0e9ea00" />
+  <Project Path="Baitap8/Baitap8.csproj" Id="57a8a5cd-a7b4-4666-a8a0-845ddd42d029" />
+  <Project Path="Baitap9/Baitap9.csproj" Id="ccdb4b8e-329c-46bb-8d8d-65be00ab6a48" />
   <Project Path="MyLib.Tests/MyLib.Tests.csproj" Id="5d7d87eb-2c66-4c87-b71d-b872266bf3b7" />
   <Project Path="MyLib/MyLib.csproj" />
 </Solution>
