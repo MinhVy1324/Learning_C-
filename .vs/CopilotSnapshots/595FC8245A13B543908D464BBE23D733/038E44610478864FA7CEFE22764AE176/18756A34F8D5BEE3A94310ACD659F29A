@@ -1,0 +1,43 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace MyLib
+{
+    public class NhanVien
+    {
+        public const decimal TIEN_TRU_NGAY_VANG = 100000m; // Hằng số trừ tiền cho mỗi ngày vắng
+        private decimal _mucLuong;
+         private int _soNgayVang;
+        public string HoTen { get; set; }
+        public decimal MucLuong
+        {
+            get => _mucLuong;
+            set => _mucLuong = value < 0 ? 0 : value; // Ràng buộc mức lương >= 0
+        }
+        public int SoNgayVang
+        {
+            get => _soNgayVang;
+            set => _soNgayVang = value < 0 ? 0 : value; // Ràng buộc số ngày vắng >= 0
+        }
+        public decimal LuongThucNhan
+        {
+            get => MucLuong - (SoNgayVang * TIEN_TRU_NGAY_VANG);
+        }
+        public NhanVien()
+        {
+            MucLuong = 0;
+            SoNgayVang = 0;
+        }
+        public NhanVien(string hoTen, decimal mucLuong, int soNgayVang)
+        {
+            HoTen = hoTen;
+            MucLuong = mucLuong;
+            SoNgayVang = soNgayVang;
+        }
+        public decimal TinhLuongThucNhan()
+        {
+            return LuongThucNhan;
+        }
+    }
+}
