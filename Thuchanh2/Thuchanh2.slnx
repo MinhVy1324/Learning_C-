@@ -4,6 +4,12 @@
   <Project Path="Baitap1_3/Baitap1_3.csproj" />
   <Project Path="Baitap2_1/Baitap2_1.csproj" Id="12555f08-9ed8-4309-bb83-1e0e4c054a10" />
   <Project Path="Baitap2_3/Baitap2_3.csproj" Id="222b7526-396f-47cc-93e0-072632cfad71" />
+  <Project Path="Baitap2_4/Baitap2_4.csproj" Id="9aa23c62-0da6-40b0-858c-2fbbe87db091" />
+  <Project Path="Baitap2_5/Baitap2_5.csproj" Id="0a05a512-af4d-400d-a906-729c8b0dc9e3" />
+  <Project Path="Baitap3_1/Baitap3_1.csproj" Id="ae74593e-a642-4125-ad9f-a004d92687e8" />
+  <Project Path="Baitap3_3/Baitap3_3.csproj" Id="a0291947-7bc0-4e5d-bb53-78fd8cbf2305" />
+  <Project Path="Baitap3_5/Baitap3_5.csproj" Id="31579eb4-95c2-445a-8473-0057c8951c4a" />
+  <Project Path="Baitap3_6/Baitap3_6.csproj" Id="8905b92a-463e-456d-b6d9-80a9f6f57bb2" />
   <Project Path="MyLib.Tests/MyLib.Tests.csproj" />
   <Project Path="MyLib/MyLib.csproj" />
 </Solution>
