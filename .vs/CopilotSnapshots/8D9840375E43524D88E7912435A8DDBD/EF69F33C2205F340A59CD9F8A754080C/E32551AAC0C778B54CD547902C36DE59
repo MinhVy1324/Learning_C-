@@ -1,0 +1,89 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace MyLib
+{
+   public class Person
+    {
+        public string Id { get; set; }=string.Empty;
+        public string Name { get; set; } = string.Empty;
+        public int Yob { get; set; } = 0;// year of birth
+        public int Yod { get; set; } = 0;// year of death
+
+        public Person()
+        {
+            Id = string.Empty;
+            Name = string.Empty;
+            Yob = 0;
+            Yod = 0;
+        }
+        public Person(string id, string name, int yob, int yod)
+        {
+            Id = id;
+            Name = name;
+            Yob = yob;
+            Yod = yod;
+        }
+        public Person(Person other)
+        {
+            Id = other.Id;
+            Name = other.Name;
+            Yob = other.Yob;
+            Yod = other.Yod;
+        }
+        public bool IsLiving()
+        {
+            return Yod == 0;
+        }
+
+        
+        public static Person Input()
+        {
+            Person p = new Person();
+
+            Console.Write("Nhập ID: ");
+            p.Id = Console.ReadLine()!;
+
+            Console.Write("Nhập Họ và Tên: ");
+            p.Name = Console.ReadLine()!;
+
+            int yob;
+            while (true)
+            {
+                Console.Write("Nhập Năm sinh (YOB): ");
+                if (int.TryParse(Console.ReadLine(), out yob) && yob >= 0)
+                {
+                    p.Yob = yob;
+                    break;
+                }
+                Console.WriteLine("Lỗi: Năm sinh phải là số nguyên không âm!");
+            }
+
+            int yod;
+            while (true)
+            {
+                Console.Write("Nhập Năm mất (YOD - Nhập 0 nếu còn sống): ");
+                if (int.TryParse(Console.ReadLine(), out yod) && yod >= 0)
+                {
+                    p.Yod = yod;
+                    break;
+                }
+                Console.WriteLine("Lỗi: Năm mất phải là số nguyên không âm!");
+            }
+
+            return p;
+        }
+
+       
+        public void Output()
+        {
+            Console.WriteLine($"[ID: {Id}] - Tên: {Name} | Năm sinh: {Yob} | Trạng thái: {(IsLiving() ? "Còn sống" : $"Đã mất ({Yod})")}");
+        }
+
+        public override string ToString()
+        {
+            return $"ID: {Id}, Name: {Name}, YOB: {Yob}, YOD: {Yod}, IsLiving: {IsLiving()}";
+        }
+    }
+}

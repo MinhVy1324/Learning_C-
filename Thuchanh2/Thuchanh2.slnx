@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="Baitap1_1/Baitap1_1.csproj" />
+  <Project Path="Baitap1_2/Baitap1_2.csproj" />
+  <Project Path="Baitap1_3/Baitap1_3.csproj" />
+  <Project Path="MyLib.Tests/MyLib.Tests.csproj" />
+  <Project Path="MyLib/MyLib.csproj" />
+</Solution>

@@ -1,0 +1,51 @@
+﻿using MyLib;
+using System;
+
+namespace Baitap1_2
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+            Console.WriteLine("=== BÀI 1.2: THIẾT KẾ LỚP POINT ===");
+
+            Console.WriteLine("\n--- Nhập tọa độ điểm A ---");
+            Point pA = Point.Input();
+
+            Console.WriteLine("\n--- Nhập tọa độ điểm B ---");
+            Point pB = Point.Input();
+
+            Console.WriteLine("\n-------------------------------------------");
+            Console.Write("Tọa độ điểm A: ");
+            pA.Output();
+            Console.Write("Tọa độ điểm B: ");
+            pB.Output();
+
+            // Phép toán
+            Point pTong = pA + pB;
+            Point pHieu = pA - pB;
+            Point pAmA = -pA;
+
+            Console.WriteLine($"\n[Phép toán]");
+            Console.WriteLine($"A + B  = {pTong}");
+            Console.WriteLine($"A - B  = {pHieu}");
+            Console.WriteLine($"-A     = {pAmA}");
+
+            // (a) Khoảng cách
+            double kcThanhVien = pA.TinhKhoangCach(pB);
+            double kcTinh = Point.TinhKhoangCach(pA, pB);
+            Console.WriteLine($"\n[(a) Khoảng cách A và B]");
+            Console.WriteLine($"- Phương thức thành viên : {kcThanhVien:F4}");
+            Console.WriteLine($"- Phương thức tĩnh       : {kcTinh:F4}");
+
+            // (b) Trung điểm
+            Point tdThanhVien = pA.TimTrungDiem(pB);
+            Point tdTinh = Point.TimTrungDiem(pA, pB);
+            Console.WriteLine($"\n[(b) Trung điểm I của A và B]");
+            Console.WriteLine($"- Phương thức thành viên : {tdThanhVien}");
+            Console.WriteLine($"- Phương thức tĩnh       : {tdTinh}");
+            Console.WriteLine("-------------------------------------------");
+        }
+    }
+}

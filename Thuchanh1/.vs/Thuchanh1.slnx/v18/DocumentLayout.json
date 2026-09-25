@@ -29,6 +29,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{34C4A653-7562-445F-A7B7-59011F4B063D}|Baitap15\\Baitap15.csproj|f:\\learn_c#\\learning_c-\\thuchanh1\\baitap15\\baitap15.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{34C4A653-7562-445F-A7B7-59011F4B063D}|Baitap15\\Baitap15.csproj|solutionrelative:baitap15\\baitap15.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{211C05CE-A064-0318-3D93-E69D7565E10B}|MyLib\\MyLib.csproj|f:\\learn_c#\\learning_c-\\thuchanh1\\mylib\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{211C05CE-A064-0318-3D93-E69D7565E10B}|MyLib\\MyLib.csproj|solutionrelative:mylib\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,17 +42,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NhanVien.cs",
+              "DocumentMoniker": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\MyLib\\NhanVien.cs",
+              "RelativeDocumentMoniker": "MyLib\\NhanVien.cs",
+              "ToolTip": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\MyLib\\NhanVien.cs",
+              "RelativeToolTip": "MyLib\\NhanVien.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T02:32:37.844Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MangHoTenTests.cs",
               "DocumentMoniker": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\MyLib.Tests\\MangHoTenTests.cs",
               "RelativeDocumentMoniker": "MyLib.Tests\\MangHoTenTests.cs",
-              "ToolTip": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\MyLib.Tests\\MangHoTenTests.cs*",
-              "RelativeToolTip": "MyLib.Tests\\MangHoTenTests.cs*",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowCIAAAAAAAAAAAAAAA==",
+              "ToolTip": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\MyLib.Tests\\MangHoTenTests.cs",
+              "RelativeToolTip": "MyLib.Tests\\MangHoTenTests.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-25T02:23:10.89Z",
               "EditorCaption": ""

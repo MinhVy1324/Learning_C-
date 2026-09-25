@@ -1,0 +1,288 @@
+﻿/*
+* KIỂM THỬ TỰ ĐỘNG BÀI TÍNH TUỔI SINH VIÊN
+* Tác giả : Võ Minh Vỹ
+* Ngày viết: 25/09/2026
+*/
+
+using Xunit;
+using MyLib;
+
+namespace MyLib.Tests
+{
+    public class SinhVienTuoiTests
+    {
+        [Fact]
+        public void Test_KhoiTao_Va_TinhTuoi_ThanhCong()
+        {
+            // File: Thuchanh2/MyLib/SinhVienTuoi.cs
+using System;
+
+namespace MyLib
+{
+    public class SinhVienTuoi
+    {
+        public string HoTen { get; }
+        public int NamSinh { get; private set; }
+
+        public SinhVienTuoi(string hoTen, int namSinh)
+        {
+            HoTen = hoTen ?? string.Empty;
+            int current = DateTime.Now.Year;
+            if (namSinh < 1900 || namSinh > current)
+                NamSinh = current;
+            else
+                NamSinh = namSinh;
+        }
+
+        public int TinhTuoi(int year) => year - NamSinh;
+
+        public string GetThongTin(int year)
+        {
+            return $"Họ tên: {HoTen} | Năm sinh: {NamSinh} | Tuổi: {TinhTuoi(year)}";
+        }
+    }
+}// File: Thuchanh2/MyLib/SinhVienTuoi.cs
+using System;
+
+namespace MyLib
+{
+    public class SinhVienTuoi
+    {
+        public string HoTen { get; }
+        public int NamSinh { get; private set; }
+
+        public SinhVienTuoi(string hoTen, int namSinh)
+        {
+            HoTen = hoTen ?? string.Empty;
+            int current = DateTime.Now.Year;
+            if (namSinh < 1900 || namSinh > current)
+                NamSinh = current;
+            else
+                NamSinh = namSinh;
+        }
+
+        public int TinhTuoi(int year) => year - NamSinh;
+
+        public string GetThongTin(int year)
+        {
+            return $"Họ tên: {HoTen} | Năm sinh: {NamSinh} | Tuổi: {TinhTuoi(year)}";
+        }
+    }
+}// File: Thuchanh2/MyLib/SinhVienTuoi.cs
+using System;
+
+namespace MyLib
+{
+    public class SinhVienTuoi
+    {
+        public string HoTen { get; }
+        public int NamSinh { get; private set; }
+
+        public SinhVienTuoi(string hoTen, int namSinh)
+        {
+            HoTen = hoTen ?? string.Empty;
+            int current = DateTime.Now.Year;
+            if (namSinh < 1900 || namSinh > current)
+                NamSinh = current;
+            else
+                NamSinh = namSinh;
+        }
+
+        public int TinhTuoi(int year) => year - NamSinh;
+
+        public string GetThongTin(int year)
+        {
+            return $"Họ tên: {HoTen} | Năm sinh: {NamSinh} | Tuổi: {TinhTuoi(year)}";
+        }
+    }
+}// File: Thuchanh2/MyLib/SinhVienTuoi.cs
+using System;
+
+namespace MyLib
+{
+    public class SinhVienTuoi
+    {
+        public string HoTen { get; }
+        public int NamSinh { get; private set; }
+
+        public SinhVienTuoi(string hoTen, int namSinh)
+        {
+            HoTen = hoTen ?? string.Empty;
+            int current = DateTime.Now.Year;
+            if (namSinh < 1900 || namSinh > current)
+                NamSinh = current;
+            else
+                NamSinh = namSinh;
+        }
+
+        public int TinhTuoi(int year) => year - NamSinh;
+
+        public string GetThongTin(int year)
+        {
+            return $"Họ tên: {HoTen} | Năm sinh: {NamSinh} | Tuổi: {TinhTuoi(year)}";
+        }
+    }
+}// File: Thuchanh2/MyLib/SinhVienTuoi.cs
+using System;
+
+namespace MyLib
+{
+    public class SinhVienTuoi
+    {
+        public string HoTen { get; }
+        public int NamSinh { get; private set; }
+
+        public SinhVienTuoi(string hoTen, int namSinh)
+        {
+            HoTen = hoTen ?? string.Empty;
+            int current = DateTime.Now.Year;
+            if (namSinh < 1900 || namSinh > current)
+                NamSinh = current;
+            else
+                NamSinh = namSinh;
+        }
+
+        public int TinhTuoi(int year) => year - NamSinh;
+
+        public string GetThongTin(int year)
+        {
+            return $"Họ tên: {HoTen} | Năm sinh: {NamSinh} | Tuổi: {TinhTuoi(year)}";
+        }
+    }
+}// File: Thuchanh2/MyLib/SinhVienTuoi.cs
+using System;
+
+namespace MyLib
+{
+    public class SinhVienTuoi
+    {
+        public string HoTen { get; }
+        public int NamSinh { get; private set; }
+
+        public SinhVienTuoi(string hoTen, int namSinh)
+        {
+            HoTen = hoTen ?? string.Empty;
+            int current = DateTime.Now.Year;
+            if (namSinh < 1900 || namSinh > current)
+                NamSinh = current;
+            else
+                NamSinh = namSinh;
+        }
+
+        public int TinhTuoi(int year) => year - NamSinh;
+
+        public string GetThongTin(int year)
+        {
+            return $"Họ tên: {HoTen} | Năm sinh: {NamSinh} | Tuổi: {TinhTuoi(year)}";
+        }
+    }
+}// File: Thuchanh2/MyLib/SinhVienTuoi.cs
+using System;
+
+namespace MyLib
+{
+    public class SinhVienTuoi
+    {
+        public string HoTen { get; }
+        public int NamSinh { get; private set; }
+
+        public SinhVienTuoi(string hoTen, int namSinh)
+        {
+            HoTen = hoTen ?? string.Empty;
+            int current = DateTime.Now.Year;
+            if (namSinh < 1900 || namSinh > current)
+                NamSinh = current;
+            else
+                NamSinh = namSinh;
+        }
+
+        public int TinhTuoi(int year) => year - NamSinh;
+
+        public string GetThongTin(int year)
+        {
+            return $"Họ tên: {HoTen} | Năm sinh: {NamSinh} | Tuổi: {TinhTuoi(year)}";
+        }
+    }
+}// File: Thuchanh2/MyLib/SinhVienTuoi.cs
+using System;
+
+namespace MyLib
+{
+    public class SinhVienTuoi
+    {
+        public string HoTen { get; }
+        public int NamSinh { get; private set; }
+
+        public SinhVienTuoi(string hoTen, int namSinh)
+        {
+            HoTen = hoTen ?? string.Empty;
+            int current = DateTime.Now.Year;
+            if (namSinh < 1900 || namSinh > current)
+                NamSinh = current;
+            else
+                NamSinh = namSinh;
+        }
+
+        public int TinhTuoi(int year) => year - NamSinh;
+
+        public string GetThongTin(int year)
+        {
+            return $"Họ tên: {HoTen} | Năm sinh: {NamSinh} | Tuổi: {TinhTuoi(year)}";
+        }
+    }
+}// File: Thuchanh2/MyLib/SinhVienTuoi.cs
+using System;
+
+namespace MyLib
+{
+    public class SinhVienTuoi
+    {
+        public string HoTen { get; }
+        public int NamSinh { get; private set; }
+
+        public SinhVienTuoi(string hoTen, int namSinh)
+        {
+            HoTen = hoTen ?? string.Empty;
+            int current = DateTime.Now.Year;
+            if (namSinh < 1900 || namSinh > current)
+                NamSinh = current;
+            else
+                NamSinh = namSinh;
+        }
+
+        public int TinhTuoi(int year) => year - NamSinh;
+
+        public string GetThongTin(int year)
+        {
+            return $"Họ tên: {HoTen} | Năm sinh: {NamSinh} | Tuổi: {TinhTuoi(year)}";
+        }
+    }
+}SinhVienTuoi sv = new SinhVienTuoi("Nguyễn Văn A", 2004);
+            int tuoi = sv.TinhTuoi(2026); // Giả lập năm 2026
+
+            Assert.Equal("Nguyễn Văn A", sv.HoTen);
+            Assert.Equal(2004, sv.NamSinh);
+            Assert.Equal(22, tuoi);
+        }
+
+        [Theory]
+        [InlineData(1800)] // Năm sinh quá khứ không hợp lệ
+        [InlineData(2099)] // Năm sinh tương lai không hợp lệ
+        public void Test_RàngBuoc_NamSinhKhongHopLe(int invalidYear)
+        {
+            SinhVienTuoi sv = new SinhVienTuoi("Lê Văn B", invalidYear);
+            int currentYear = System.DateTime.Now.Year;
+
+            Assert.Equal(currentYear, sv.NamSinh);
+        }
+
+        [Fact]
+        public void Test_GetThongTin_FormatStandard()
+        {
+            SinhVienTuoi sv = new SinhVienTuoi("Trần Thị C", 2005);
+            string expected = "Họ tên: Trần Thị C | Năm sinh: 2005 | Tuổi: 21";
+
+            Assert.Equal(expected, sv.GetThongTin(2026));
+        }
+    }
+}
