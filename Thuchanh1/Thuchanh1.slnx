@@ -2,6 +2,7 @@
   <Project Path="Baitap1/Baitap1.csproj" />
   <Project Path="Baitap10/Baitap10.csproj" Id="bf4cad50-5f98-4fc9-95ba-01d4f08c8c16" />
   <Project Path="Baitap11/Baitap11.csproj" Id="3d67c999-43c6-4bd8-8f2a-4d43095dfde1" />
+  <Project Path="Baitap12/Baitap12.csproj" Id="8ae51ec5-04c4-41c5-8cc9-d5facbfb9855" />
   <Project Path="Baitap2/Baitap2.csproj" Id="218ae9c8-ce64-4b36-8882-5e82d143d244" />
   <Project Path="Baitap3/Baitap3.csproj" Id="b476da15-9ecc-4bed-af65-32e211b62080" />
   <Project Path="Baitap5/Baitap5.csproj" Id="a26b1a33-1e57-4c60-b69e-197b2efcb390" />
