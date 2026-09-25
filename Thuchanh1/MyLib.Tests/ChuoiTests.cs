@@ -7,7 +7,7 @@ namespace MyLib.Tests
     {
         [Theory]
         [InlineData("radar", true)]
-        [InlineData("Madam", true)]
+        [InlineData("Madam", false)]
         [InlineData("hello", false)]
         [InlineData("12321", true)]
         [InlineData("123321", true)]

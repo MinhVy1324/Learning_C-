@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BF4CAD50-5F98-4FC9-95BA-01D4F08C8C16}|Baitap10\\Baitap10.csproj|f:\\learn_c#\\learning_c-\\thuchanh1\\baitap10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF4CAD50-5F98-4FC9-95BA-01D4F08C8C16}|Baitap10\\Baitap10.csproj|solutionrelative:baitap10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{211C05CE-A064-0318-3D93-E69D7565E10B}|MyLib\\MyLib.csproj|f:\\learn_c#\\learning_c-\\thuchanh1\\mylib\\daochuoilib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{211C05CE-A064-0318-3D93-E69D7565E10B}|MyLib\\MyLib.csproj|solutionrelative:mylib\\daochuoilib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{211C05CE-A064-0318-3D93-E69D7565E10B}|MyLib\\MyLib.csproj|f:\\learn_c#\\learning_c-\\thuchanh1\\mylib\\chuoilib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{211C05CE-A064-0318-3D93-E69D7565E10B}|MyLib\\MyLib.csproj|solutionrelative:mylib\\chuoilib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D67C999-43C6-4BD8-8F2A-4D43095DFDE1}|Baitap11\\Baitap11.csproj|f:\\learn_c#\\learning_c-\\thuchanh1\\baitap11\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D67C999-43C6-4BD8-8F2A-4D43095DFDE1}|Baitap11\\Baitap11.csproj|solutionrelative:baitap11\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D7D87EB-2C66-4C87-B71D-B872266BF3B7}|MyLib.Tests\\MyLib.Tests.csproj|f:\\learn_c#\\learning_c-\\thuchanh1\\mylib.tests\\chuoitests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D7D87EB-2C66-4C87-B71D-B872266BF3B7}|MyLib.Tests\\MyLib.Tests.csproj|solutionrelative:mylib.tests\\chuoitests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{211C05CE-A064-0318-3D93-E69D7565E10B}|MyLib\\MyLib.csproj|f:\\learn_c#\\learning_c-\\thuchanh1\\mylib\\luythualib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{211C05CE-A064-0318-3D93-E69D7565E10B}|MyLib\\MyLib.csproj|solutionrelative:mylib\\luythualib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{211C05CE-A064-0318-3D93-E69D7565E10B}|MyLib\\MyLib.csproj|f:\\learn_c#\\learning_c-\\thuchanh1\\mylib\\nhaptenxuatlib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{211C05CE-A064-0318-3D93-E69D7565E10B}|MyLib\\MyLib.csproj|solutionrelative:mylib\\nhaptenxuatlib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF4CAD50-5F98-4FC9-95BA-01D4F08C8C16}|Baitap10\\Baitap10.csproj|f:\\learn_c#\\learning_c-\\thuchanh1\\baitap10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF4CAD50-5F98-4FC9-95BA-01D4F08C8C16}|Baitap10\\Baitap10.csproj|solutionrelative:baitap10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5D7D87EB-2C66-4C87-B71D-B872266BF3B7}|MyLib.Tests\\MyLib.Tests.csproj|f:\\learn_c#\\learning_c-\\thuchanh1\\mylib.tests\\phuongthuctests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,16 +39,8 @@
       "RelativeMoniker": "D:0:0:{211C05CE-A064-0318-3D93-E69D7565E10B}|MyLib\\MyLib.csproj|solutionrelative:mylib\\phuongthuclib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{211C05CE-A064-0318-3D93-E69D7565E10B}|MyLib\\MyLib.csproj|f:\\learn_c#\\learning_c-\\thuchanh1\\mylib\\nhaptenxuatlib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{211C05CE-A064-0318-3D93-E69D7565E10B}|MyLib\\MyLib.csproj|solutionrelative:mylib\\nhaptenxuatlib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{211C05CE-A064-0318-3D93-E69D7565E10B}|MyLib\\MyLib.csproj|f:\\learn_c#\\learning_c-\\thuchanh1\\mylib\\menulib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{211C05CE-A064-0318-3D93-E69D7565E10B}|MyLib\\MyLib.csproj|solutionrelative:mylib\\menulib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{211C05CE-A064-0318-3D93-E69D7565E10B}|MyLib\\MyLib.csproj|f:\\learn_c#\\learning_c-\\thuchanh1\\mylib\\luythualib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{211C05CE-A064-0318-3D93-E69D7565E10B}|MyLib\\MyLib.csproj|solutionrelative:mylib\\luythualib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{211C05CE-A064-0318-3D93-E69D7565E10B}|MyLib\\MyLib.csproj|f:\\learn_c#\\learning_c-\\thuchanh1\\mylib\\luythualoilib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -102,19 +114,104 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\Baitap11\\Program.cs",
+              "RelativeDocumentMoniker": "Baitap11\\Program.cs",
+              "ToolTip": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\Baitap11\\Program.cs",
+              "RelativeToolTip": "Baitap11\\Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAmwCEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T00:48:06.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\Baitap10\\Program.cs",
               "RelativeDocumentMoniker": "Baitap10\\Program.cs",
               "ToolTip": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\Baitap10\\Program.cs",
               "RelativeToolTip": "Baitap10\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAiwCAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAiwCIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-25T00:33:44.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\Baitap7\\Program.cs",
+              "RelativeDocumentMoniker": "Baitap7\\Program.cs",
+              "ToolTip": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\Baitap7\\Program.cs",
+              "RelativeToolTip": "Baitap7\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwBEAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T18:51:16.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\Baitap6\\Program.cs",
+              "RelativeDocumentMoniker": "Baitap6\\Program.cs",
+              "ToolTip": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\Baitap6\\Program.cs",
+              "RelativeToolTip": "Baitap6\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T18:48:56.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PhuongThucLib.cs",
+              "DocumentMoniker": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\MyLib\\PhuongThucLib.cs",
+              "RelativeDocumentMoniker": "MyLib\\PhuongThucLib.cs",
+              "ToolTip": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\MyLib\\PhuongThucLib.cs",
+              "RelativeToolTip": "MyLib\\PhuongThucLib.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAqwCwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T18:48:11.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MenuLib.cs",
+              "DocumentMoniker": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\MyLib\\MenuLib.cs",
+              "RelativeDocumentMoniker": "MyLib\\MenuLib.cs",
+              "ToolTip": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\MyLib\\MenuLib.cs",
+              "RelativeToolTip": "MyLib\\MenuLib.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T18:33:19.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MyLib.Tests",
+              "DocumentMoniker": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\MyLib.Tests\\MyLib.Tests.csproj",
+              "RelativeDocumentMoniker": "MyLib.Tests\\MyLib.Tests.csproj",
+              "ToolTip": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\MyLib.Tests\\MyLib.Tests.csproj",
+              "RelativeToolTip": "MyLib.Tests\\MyLib.Tests.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-24T18:19:21.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NhapTenXuatLib.cs",
+              "DocumentMoniker": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\MyLib\\NhapTenXuatLib.cs",
+              "RelativeDocumentMoniker": "MyLib\\NhapTenXuatLib.cs",
+              "ToolTip": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\MyLib\\NhapTenXuatLib.cs",
+              "RelativeToolTip": "MyLib\\NhapTenXuatLib.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T17:02:41.423Z",
               "EditorCaption": ""
             },
             {
@@ -125,14 +222,77 @@
               "RelativeDocumentMoniker": "MyLib\\ChuoiLib.cs",
               "ToolTip": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\MyLib\\ChuoiLib.cs",
               "RelativeToolTip": "MyLib\\ChuoiLib.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-25T00:27:12.593Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "DaoChuoiLib.cs",
+              "DocumentMoniker": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\MyLib\\DaoChuoiLib.cs",
+              "RelativeDocumentMoniker": "MyLib\\DaoChuoiLib.cs",
+              "ToolTip": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\MyLib\\DaoChuoiLib.cs*",
+              "RelativeToolTip": "MyLib\\DaoChuoiLib.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T00:48:53.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChuoiTests.cs",
+              "DocumentMoniker": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\MyLib.Tests\\ChuoiTests.cs",
+              "RelativeDocumentMoniker": "MyLib.Tests\\ChuoiTests.cs",
+              "ToolTip": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\MyLib.Tests\\ChuoiTests.cs",
+              "RelativeToolTip": "MyLib.Tests\\ChuoiTests.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAlwBYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T00:39:20.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LuyThuaLib.cs",
+              "DocumentMoniker": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\MyLib\\LuyThuaLib.cs",
+              "RelativeDocumentMoniker": "MyLib\\LuyThuaLib.cs",
+              "ToolTip": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\MyLib\\LuyThuaLib.cs",
+              "RelativeToolTip": "MyLib\\LuyThuaLib.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T17:36:01.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\Baitap8\\Program.cs",
+              "RelativeDocumentMoniker": "Baitap8\\Program.cs",
+              "ToolTip": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\Baitap8\\Program.cs",
+              "RelativeToolTip": "Baitap8\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T18:51:36.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\Baitap9\\Program.cs",
+              "RelativeDocumentMoniker": "Baitap9\\Program.cs",
+              "ToolTip": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\Baitap9\\Program.cs",
+              "RelativeToolTip": "Baitap9\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwBcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T18:51:53.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "PhuongThucTests.cs",
               "DocumentMoniker": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\MyLib.Tests\\PhuongThucTests.cs",
               "RelativeDocumentMoniker": "MyLib.Tests\\PhuongThucTests.cs",
@@ -145,90 +305,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\Baitap9\\Program.cs",
-              "RelativeDocumentMoniker": "Baitap9\\Program.cs",
-              "ToolTip": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\Baitap9\\Program.cs",
-              "RelativeToolTip": "Baitap9\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAiwBcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-24T18:51:53.521Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\Baitap8\\Program.cs",
-              "RelativeDocumentMoniker": "Baitap8\\Program.cs",
-              "ToolTip": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\Baitap8\\Program.cs",
-              "RelativeToolTip": "Baitap8\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-24T18:51:36.719Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\Baitap7\\Program.cs",
-              "RelativeDocumentMoniker": "Baitap7\\Program.cs",
-              "ToolTip": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\Baitap7\\Program.cs",
-              "RelativeToolTip": "Baitap7\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAiwBEAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-24T18:51:16.965Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\Baitap6\\Program.cs",
-              "RelativeDocumentMoniker": "Baitap6\\Program.cs",
-              "ToolTip": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\Baitap6\\Program.cs",
-              "RelativeToolTip": "Baitap6\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-24T18:48:56.389Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PhuongThucLib.cs",
-              "DocumentMoniker": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\MyLib\\PhuongThucLib.cs",
-              "RelativeDocumentMoniker": "MyLib\\PhuongThucLib.cs",
-              "ToolTip": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\MyLib\\PhuongThucLib.cs",
-              "RelativeToolTip": "MyLib\\PhuongThucLib.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAqwCwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-24T18:48:11.102Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MenuLib.cs",
-              "DocumentMoniker": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\MyLib\\MenuLib.cs",
-              "RelativeDocumentMoniker": "MyLib\\MenuLib.cs",
-              "ToolTip": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\MyLib\\MenuLib.cs",
-              "RelativeToolTip": "MyLib\\MenuLib.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-24T18:33:19.716Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "MyLib.Tests",
-              "DocumentMoniker": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\MyLib.Tests\\MyLib.Tests.csproj",
-              "RelativeDocumentMoniker": "MyLib.Tests\\MyLib.Tests.csproj",
-              "ToolTip": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\MyLib.Tests\\MyLib.Tests.csproj",
-              "RelativeToolTip": "MyLib.Tests\\MyLib.Tests.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-09-24T18:19:21.356Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "LuyThuaLoiLib.cs",
               "DocumentMoniker": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\MyLib\\LuyThuaLoiLib.cs",
               "RelativeDocumentMoniker": "MyLib\\LuyThuaLoiLib.cs",
@@ -240,31 +317,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LuyThuaLib.cs",
-              "DocumentMoniker": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\MyLib\\LuyThuaLib.cs",
-              "RelativeDocumentMoniker": "MyLib\\LuyThuaLib.cs",
-              "ToolTip": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\MyLib\\LuyThuaLib.cs",
-              "RelativeToolTip": "MyLib\\LuyThuaLib.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-24T17:36:01.035Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "NhapTenXuatLib.cs",
-              "DocumentMoniker": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\MyLib\\NhapTenXuatLib.cs",
-              "RelativeDocumentMoniker": "MyLib\\NhapTenXuatLib.cs",
-              "ToolTip": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\MyLib\\NhapTenXuatLib.cs",
-              "RelativeToolTip": "MyLib\\NhapTenXuatLib.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-24T17:02:41.423Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\Baitap5\\Program.cs",
               "RelativeDocumentMoniker": "Baitap5\\Program.cs",
@@ -276,7 +329,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "MenuMathTests.cs.cs",
               "DocumentMoniker": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\MyLib.Tests\\MenuMathTests.cs.cs",
               "RelativeDocumentMoniker": "MyLib.Tests\\MenuMathTests.cs.cs",
@@ -288,7 +341,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "Baitap6.csproj",
               "DocumentMoniker": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\Baitap6\\Baitap6.csproj",
               "RelativeDocumentMoniker": "Baitap6\\Baitap6.csproj",
@@ -300,7 +353,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "LuyThuaLoiTests.cs",
               "DocumentMoniker": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\MyLib.Tests\\LuyThuaLoiTests.cs",
               "RelativeDocumentMoniker": "MyLib.Tests\\LuyThuaLoiTests.cs",
@@ -312,7 +365,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "Baitap3.csproj",
               "DocumentMoniker": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\Baitap3\\Baitap3.csproj",
               "RelativeDocumentMoniker": "Baitap3\\Baitap3.csproj",
@@ -324,7 +377,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "LuyThuaLoi.cs",
               "DocumentMoniker": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\Baitap3\\LuyThuaLoi.cs",
               "RelativeDocumentMoniker": "Baitap3\\LuyThuaLoi.cs",
@@ -336,7 +389,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "LuyThua.cs",
               "DocumentMoniker": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\Baitap2\\LuyThua.cs",
               "RelativeDocumentMoniker": "Baitap2\\LuyThua.cs",
@@ -348,7 +401,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "MyLib.csproj",
               "DocumentMoniker": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\MyLib\\MyLib.csproj",
               "RelativeDocumentMoniker": "MyLib\\MyLib.csproj",
@@ -360,7 +413,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "Baitap1.csproj",
               "DocumentMoniker": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\Baitap1\\Baitap1.csproj",
               "RelativeDocumentMoniker": "Baitap1\\Baitap1.csproj",
@@ -372,7 +425,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "NhapTenXuat.cs",
               "DocumentMoniker": "F:\\Learn_C#\\Learning_C-\\Thuchanh1\\Baitap1\\NhapTenXuat.cs",
               "RelativeDocumentMoniker": "Baitap1\\NhapTenXuat.cs",
