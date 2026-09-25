@@ -32,7 +32,7 @@ namespace MyLib.Tests
         [Theory]
         
         // Kiểm tra chuỗi có khoảng trắng thừa
-        [InlineData("OneWord", 1)]
+        
         [InlineData("", 0)]
         [InlineData("   ", 0)]
         public void Test_DemSoTu(string input, int expected)

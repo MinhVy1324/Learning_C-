@@ -1,4 +1,17 @@
-﻿using System;
+﻿/*
+* THƯ VIỆN XỬ LÝ CHUỖI VÀ ĐẾM TỪ
+* Tác giả : Võ Minh Vỹ
+
+* Phát biểu đề bài:
+*   Chuyển chuỗi sang ký tự thường, ký tự hoa và đếm số từ trong chuỗi.
+*
+* Ý tưởng:
+*   - ToLowerCase(str): Sử dụng ToLower() để chuyển toàn bộ ký tự sang chữ thường.
+*   - ToUpperCase(str): Sử dụng ToUpper() để chuyển toàn bộ ký tự sang chữ hoa.
+*   - DemSoTu(str):Duyet qua tung mang
+
+*/
+using System;
 using MyLib;    
 namespace Baitap12
 {

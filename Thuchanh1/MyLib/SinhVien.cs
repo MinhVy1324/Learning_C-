@@ -1,0 +1,35 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace MyLib
+{
+  public class SinhVien
+    {
+        private int _namThu;
+       public string MaSV { get; set; }
+        public string HoTen { get; set; }
+        public string DiaChi { get; set; }
+        public int NamThu
+        {
+            get => _namThu;
+            set => _namThu = value < 1 ? 1 : value; // Ràng buộc năm học hợp lệ
+        }
+        public SinhVien()
+        {
+            NamThu = 1; 
+
+        }
+        public SinhVien(string maSV, string hoTen, string diaChi, int namThu)
+        {
+            MaSV = maSV;
+            HoTen = hoTen;
+            DiaChi = diaChi;
+            NamThu = namThu; 
+        }
+        public string GetThongTin()
+        {
+            return $"Mã SV: {MaSV} | Họ tên: {HoTen} | Địa chỉ: {DiaChi} | Sinh viên năm thứ: {NamThu}";
+        }
+    }
+}
