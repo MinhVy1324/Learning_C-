@@ -1,142 +1,206 @@
+using System;
+using System.Drawing;
+using System.Windows.Forms;
+
 namespace Bai_Tap_Lap05
 {
     public partial class Form1 : Form
     {
+        // Các control dùng trong chương trình
+        TabControl tab = new TabControl();
+        TabPage tabAnhViet = new TabPage();
+        TabPage tabVietAnh = new TabPage();
+
+        ComboBox cboAnh = new ComboBox();
+        ComboBox cboViet = new ComboBox();
+
+        TextBox txtViet = new TextBox();
+        TextBox txtAnh = new TextBox();
+
+        Button btnThoat = new Button();
+
+        // Hai từ cùng vị trí là một cặp dịch
+        string[] tiengAnh =
+        {
+            "student", "teacher", "worker", "hat", "head",
+            "mouse", "cat", "dog", "snake", "lamb",
+            "loan", "frog", "sheep"
+        };
+
+        string[] tiengViet =
+        {
+            "sinh viên, học sinh", "giáo viên", "công nhân",
+            "mũ", "đầu", "chuột", "mèo", "chó", "rắn",
+            "cừu con", "khoản vay", "ếch", "cừu"
+        };
+
         public Form1()
         {
-            InitializeComponent();
-        }
-        private void btnCapNhat_Click(object sender, EventArgs e)
-        {
-            int n;
+            TaoGiaoDien();
 
-            if (int.TryParse(txtNhapSo.Text, out n) == false || n <= 0)
+            // Thêm các từ vào danh sách
+            for (int i = 0; i < tiengAnh.Length; i++)
             {
-                MessageBox.Show("Bạn phải nhập số nguyên dương!");
-                txtNhapSo.Focus();
-                return;
+                cboAnh.Items.Add(tiengAnh[i]);
+                cboViet.Items.Add(tiengViet[i]);
             }
 
-            if (cboSo.Items.Contains(n))
-            {
-                MessageBox.Show("Số này đã có trong danh sách!");
-                txtNhapSo.Focus();
-                return;
-            }
+            // Gắn sự kiện bằng code
+            cboAnh.KeyDown += cboAnh_KeyDown;
+            cboViet.KeyDown += cboViet_KeyDown;
 
-            cboSo.Items.Add(n);
+            cboAnh.DoubleClick += cboAnh_DoubleClick;
+            cboViet.DoubleClick += cboViet_DoubleClick;
 
-            txtNhapSo.Clear();
-            txtNhapSo.Focus();
+            btnThoat.Click += btnThoat_Click;
         }
-        private void cboSo_SelectedIndexChanged(object sender, EventArgs e)
+
+        private void TaoGiaoDien()
         {
-            if (cboSo.SelectedIndex == -1)
-                return;
+            // Cửa sổ chính
+            this.Text = "TỪ ĐIỂN ANH VIỆT - VIỆT ANH";
+            this.ClientSize = new Size(440, 365);
+            this.StartPosition = FormStartPosition.CenterScreen;
+            this.Font = new Font("Segoe UI", 10);
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
 
-            int n = Convert.ToInt32(cboSo.SelectedItem);
+            // Khung chứa hai tab
+            tab.Location = new Point(15, 15);
+            tab.Size = new Size(410, 295);
 
-            lstUocSo.Items.Clear();
+            tabAnhViet.Text = "ANH - VIỆT";
+            tabVietAnh.Text = "VIỆT - ANH";
 
-            for (long i = 1; i <= n; i++)
+            tab.TabPages.Add(tabAnhViet);
+            tab.TabPages.Add(tabVietAnh);
+
+            this.Controls.Add(tab);
+
+            // ===== Tab Anh - Việt =====
+            Label lblAnh = new Label();
+            lblAnh.Text = "Tiếng Anh";
+            lblAnh.Location = new Point(15, 15);
+            lblAnh.AutoSize = true;
+            tabAnhViet.Controls.Add(lblAnh);
+
+            Label lblViet = new Label();
+            lblViet.Text = "Tiếng Việt";
+            lblViet.Location = new Point(205, 15);
+            lblViet.AutoSize = true;
+            tabAnhViet.Controls.Add(lblViet);
+
+            cboAnh.Location = new Point(15, 40);
+            cboAnh.DropDownStyle = ComboBoxStyle.Simple;
+            cboAnh.Size = new Size(175, 210);
+            cboAnh.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
+            cboAnh.AutoCompleteSource = AutoCompleteSource.ListItems;
+            tabAnhViet.Controls.Add(cboAnh);
+
+            txtViet.Location = new Point(205, 40);
+            txtViet.Size = new Size(180, 210);
+            txtViet.Multiline = true;
+            txtViet.ReadOnly = true;
+            txtViet.BackColor = Color.White;
+            tabAnhViet.Controls.Add(txtViet);
+
+            // ===== Tab Việt - Anh =====
+            Label lblViet2 = new Label();
+            lblViet2.Text = "Tiếng Việt";
+            lblViet2.Location = new Point(15, 15);
+            lblViet2.AutoSize = true;
+            tabVietAnh.Controls.Add(lblViet2);
+
+            Label lblAnh2 = new Label();
+            lblAnh2.Text = "Tiếng Anh";
+            lblAnh2.Location = new Point(205, 15);
+            lblAnh2.AutoSize = true;
+            tabVietAnh.Controls.Add(lblAnh2);
+
+            cboViet.Location = new Point(15, 40);
+            cboViet.DropDownStyle = ComboBoxStyle.Simple;
+            cboViet.Size = new Size(175, 210);
+            cboViet.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
+            cboViet.AutoCompleteSource = AutoCompleteSource.ListItems;
+            tabVietAnh.Controls.Add(cboViet);
+
+            txtAnh.Location = new Point(205, 40);
+            txtAnh.Size = new Size(180, 210);
+            txtAnh.Multiline = true;
+            txtAnh.ReadOnly = true;
+            txtAnh.BackColor = Color.White;
+            tabVietAnh.Controls.Add(txtAnh);
+
+            // Nút thoát
+            btnThoat.Text = "Thoát";
+            btnThoat.Location = new Point(335, 320);
+            btnThoat.Size = new Size(90, 30);
+            this.Controls.Add(btnThoat);
+        }
+
+        private void TraAnhViet()
+        {
+            string tu = cboAnh.Text.Trim().ToLower();
+
+            for (int i = 0; i < tiengAnh.Length; i++)
             {
-                if (n % i == 0)
+                if (tu == tiengAnh[i].ToLower())
                 {
-                    lstUocSo.Items.Add(i);
+                    txtViet.Text = tiengViet[i];
+                    return;
                 }
             }
+
+            txtViet.Text = "Không tìm thấy từ!";
         }
-        private void btnTong_Click(object sender, EventArgs e)
+
+        private void TraVietAnh()
         {
-            if (cboSo.SelectedIndex == -1)
+            string tu = cboViet.Text.Trim().ToLower();
+
+            for (int i = 0; i < tiengViet.Length; i++)
             {
-                MessageBox.Show("Bạn hãy chọn một số trước!");
-                return;
-            }
-
-            long tong = 0;
-
-            for (int i = 0; i < lstUocSo.Items.Count; i++)
-            {
-                long uoc = Convert.ToInt64(lstUocSo.Items[i]);
-                tong = tong + uoc;
-            }
-
-            MessageBox.Show("Tổng các ước số là: " + tong);
-        }
-        private void btnDemChan_Click(object sender, EventArgs e)
-        {
-            if (cboSo.SelectedIndex == -1)
-            {
-                MessageBox.Show("Bạn hãy chọn một số trước!");
-                return;
-            }
-
-            int dem = 0;
-
-            for (int i = 0; i < lstUocSo.Items.Count; i++)
-            {
-                int uoc = Convert.ToInt32(lstUocSo.Items[i]);
-
-                if (uoc % 2 == 0)
+                if (tu == tiengViet[i].ToLower())
                 {
-                    dem++;
+                    txtAnh.Text = tiengAnh[i];
+                    return;
                 }
             }
 
-            MessageBox.Show("Số lượng ước chẵn là: " + dem);
+            txtAnh.Text = "Không tìm thấy từ!";
         }
-        private bool LaSoNguyenTo(int n)
+
+        private void cboAnh_KeyDown(object sender, KeyEventArgs e)
         {
-            if (n < 2)
-                return false;
-
-            for (int i = 2; i <= Math.Sqrt(n); i++)
+            if (e.KeyCode == Keys.Enter)
             {
-                if (n % i == 0)
-                {
-                    return false;
-                }
+                TraAnhViet();
+                e.SuppressKeyPress = true;
             }
-
-            return true;
         }
-        private void btnDemNguyenTo_Click(object sender, EventArgs e)
+
+        private void cboViet_KeyDown(object sender, KeyEventArgs e)
         {
-            if (cboSo.SelectedIndex == -1)
+            if (e.KeyCode == Keys.Enter)
             {
-                MessageBox.Show("Bạn hãy chọn một số trước!");
-                return;
+                TraVietAnh();
+                e.SuppressKeyPress = true;
             }
-
-            int dem = 0;
-
-            for (int i = 0; i < lstUocSo.Items.Count; i++)
-            {
-                int uoc = Convert.ToInt32(lstUocSo.Items[i]);
-
-                if (LaSoNguyenTo(uoc))
-                {
-                    dem++;
-                }
-            }
-
-            MessageBox.Show("Số lượng ước nguyên tố là: " + dem);
         }
+
+        private void cboAnh_DoubleClick(object sender, EventArgs e)
+        {
+            TraAnhViet();
+        }
+
+        private void cboViet_DoubleClick(object sender, EventArgs e)
+        {
+            TraVietAnh();
+        }
+
         private void btnThoat_Click(object sender, EventArgs e)
         {
-            DialogResult traLoi = MessageBox.Show(
-                "Bạn có muốn thoát không?",
-                "Xác nhận",
-                MessageBoxButtons.YesNo,
-                MessageBoxIcon.Question);
-
-            if (traLoi == DialogResult.Yes)
-            {
-                Close();
-            }
+            this.Close();
         }
-
     }
-}      
-
+}
