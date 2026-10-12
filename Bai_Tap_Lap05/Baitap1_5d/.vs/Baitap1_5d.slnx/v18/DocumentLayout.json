@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Learn_C#\\Learning_C-\\Bai_Tap_Lap05\\Baitap1_5d\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8523BC1A-759A-41F9-99E8-7DE5A3A62FE4}|Baitap1_5d\\Baitap1_5d.csproj|f:\\learn_c#\\learning_c-\\bai_tap_lap05\\baitap1_5d\\baitap1_5d\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8523BC1A-759A-41F9-99E8-7DE5A3A62FE4}|Baitap1_5d\\Baitap1_5d.csproj|solutionrelative:baitap1_5d\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8523BC1A-759A-41F9-99E8-7DE5A3A62FE4}|Baitap1_5d\\Baitap1_5d.csproj|f:\\learn_c#\\learning_c-\\bai_tap_lap05\\baitap1_5d\\baitap1_5d\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8523BC1A-759A-41F9-99E8-7DE5A3A62FE4}|Baitap1_5d\\Baitap1_5d.csproj|solutionrelative:baitap1_5d\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8523BC1A-759A-41F9-99E8-7DE5A3A62FE4}|Baitap1_5d\\Baitap1_5d.csproj|f:\\learn_c#\\learning_c-\\bai_tap_lap05\\baitap1_5d\\baitap1_5d\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8523BC1A-759A-41F9-99E8-7DE5A3A62FE4}|Baitap1_5d\\Baitap1_5d.csproj|solutionrelative:baitap1_5d\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "F:\\Learn_C#\\Learning_C-\\Bai_Tap_Lap05\\Baitap1_5d\\Baitap1_5d\\Form1.cs",
+              "RelativeDocumentMoniker": "Baitap1_5d\\Form1.cs",
+              "ToolTip": "F:\\Learn_C#\\Learning_C-\\Bai_Tap_Lap05\\Baitap1_5d\\Baitap1_5d\\Form1.cs",
+              "RelativeToolTip": "Baitap1_5d\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T08:09:03.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "F:\\Learn_C#\\Learning_C-\\Bai_Tap_Lap05\\Baitap1_5d\\Baitap1_5d\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Baitap1_5d\\Form1.Designer.cs",
+              "ToolTip": "F:\\Learn_C#\\Learning_C-\\Bai_Tap_Lap05\\Baitap1_5d\\Baitap1_5d\\Form1.Designer.cs",
+              "RelativeToolTip": "Baitap1_5d\\Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T08:08:41.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "F:\\Learn_C#\\Learning_C-\\Bai_Tap_Lap05\\Baitap1_5d\\Baitap1_5d\\Form1.cs",
+              "RelativeDocumentMoniker": "Baitap1_5d\\Form1.cs",
+              "ToolTip": "F:\\Learn_C#\\Learning_C-\\Bai_Tap_Lap05\\Baitap1_5d\\Baitap1_5d\\Form1.cs [Design]",
+              "RelativeToolTip": "Baitap1_5d\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T08:07:07.969Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

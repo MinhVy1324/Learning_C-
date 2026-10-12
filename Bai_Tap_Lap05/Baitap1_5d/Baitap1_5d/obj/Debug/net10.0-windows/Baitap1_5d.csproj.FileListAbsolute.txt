@@ -1,0 +1,17 @@
+F:\Learn_C#\Learning_C-\Bai_Tap_Lap05\Baitap1_5d\Baitap1_5d\bin\Debug\net10.0-windows\Baitap1_5d.exe
+F:\Learn_C#\Learning_C-\Bai_Tap_Lap05\Baitap1_5d\Baitap1_5d\bin\Debug\net10.0-windows\Baitap1_5d.deps.json
+F:\Learn_C#\Learning_C-\Bai_Tap_Lap05\Baitap1_5d\Baitap1_5d\bin\Debug\net10.0-windows\Baitap1_5d.runtimeconfig.json
+F:\Learn_C#\Learning_C-\Bai_Tap_Lap05\Baitap1_5d\Baitap1_5d\bin\Debug\net10.0-windows\Baitap1_5d.dll
+F:\Learn_C#\Learning_C-\Bai_Tap_Lap05\Baitap1_5d\Baitap1_5d\bin\Debug\net10.0-windows\Baitap1_5d.pdb
+F:\Learn_C#\Learning_C-\Bai_Tap_Lap05\Baitap1_5d\Baitap1_5d\obj\Debug\net10.0-windows\Baitap1_5d.Form1.resources
+F:\Learn_C#\Learning_C-\Bai_Tap_Lap05\Baitap1_5d\Baitap1_5d\obj\Debug\net10.0-windows\Baitap1_5d.csproj.GenerateResource.cache
+F:\Learn_C#\Learning_C-\Bai_Tap_Lap05\Baitap1_5d\Baitap1_5d\obj\Debug\net10.0-windows\Baitap1_5d.GeneratedMSBuildEditorConfig.editorconfig
+F:\Learn_C#\Learning_C-\Bai_Tap_Lap05\Baitap1_5d\Baitap1_5d\obj\Debug\net10.0-windows\Baitap1_5d.AssemblyInfoInputs.cache
+F:\Learn_C#\Learning_C-\Bai_Tap_Lap05\Baitap1_5d\Baitap1_5d\obj\Debug\net10.0-windows\Baitap1_5d.AssemblyInfo.cs
+F:\Learn_C#\Learning_C-\Bai_Tap_Lap05\Baitap1_5d\Baitap1_5d\obj\Debug\net10.0-windows\Baitap1_5d.csproj.CoreCompileInputs.cache
+F:\Learn_C#\Learning_C-\Bai_Tap_Lap05\Baitap1_5d\Baitap1_5d\obj\Debug\net10.0-windows\Baitap1_5d.sourcelink.json
+F:\Learn_C#\Learning_C-\Bai_Tap_Lap05\Baitap1_5d\Baitap1_5d\obj\Debug\net10.0-windows\Baitap1_5d.dll
+F:\Learn_C#\Learning_C-\Bai_Tap_Lap05\Baitap1_5d\Baitap1_5d\obj\Debug\net10.0-windows\refint\Baitap1_5d.dll
+F:\Learn_C#\Learning_C-\Bai_Tap_Lap05\Baitap1_5d\Baitap1_5d\obj\Debug\net10.0-windows\Baitap1_5d.pdb
+F:\Learn_C#\Learning_C-\Bai_Tap_Lap05\Baitap1_5d\Baitap1_5d\obj\Debug\net10.0-windows\Baitap1_5d.genruntimeconfig.cache
+F:\Learn_C#\Learning_C-\Bai_Tap_Lap05\Baitap1_5d\Baitap1_5d\obj\Debug\net10.0-windows\ref\Baitap1_5d.dll
