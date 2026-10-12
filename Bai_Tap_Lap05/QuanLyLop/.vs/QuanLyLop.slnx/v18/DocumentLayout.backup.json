@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "F:\\Learn_C#\\Learning_C-\\Bai_Tap_Lap05\\QuanLyLop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3751071C-AF8D-43ED-B1E7-979C71EAB44D}|QuanLyLop\\QuanLyLop.csproj|f:\\learn_c#\\learning_c-\\bai_tap_lap05\\quanlylop\\quanlylop\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3751071C-AF8D-43ED-B1E7-979C71EAB44D}|QuanLyLop\\QuanLyLop.csproj|solutionrelative:quanlylop\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B1C633CC-63C6-317A-2C99-94A8CE4ECA15}|QuanLyLop\\QuanLyLop.csproj|f:\\learn_c#\\learning_c-\\bai_tap_lap05\\quanlylop\\quanlylop\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1C633CC-63C6-317A-2C99-94A8CE4ECA15}|QuanLyLop\\QuanLyLop.csproj|solutionrelative:quanlylop\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3751071C-AF8D-43ED-B1E7-979C71EAB44D}|QuanLyLop\\QuanLyLop.csproj|f:\\learn_c#\\learning_c-\\bai_tap_lap05\\quanlylop\\quanlylop\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3751071C-AF8D-43ED-B1E7-979C71EAB44D}|QuanLyLop\\QuanLyLop.csproj|solutionrelative:quanlylop\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3751071C-AF8D-43ED-B1E7-979C71EAB44D}|QuanLyLop\\QuanLyLop.csproj|f:\\learn_c#\\learning_c-\\bai_tap_lap05\\quanlylop\\quanlylop\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3751071C-AF8D-43ED-B1E7-979C71EAB44D}|QuanLyLop\\QuanLyLop.csproj|F:\\Learn_C#\\Learning_C-\\Bai_Tap_Lap05\\QuanLyLop\\quanlylop\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3751071C-AF8D-43ED-B1E7-979C71EAB44D}|QuanLyLop\\QuanLyLop.csproj|solutionrelative:quanlylop\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1C633CC-63C6-317A-2C99-94A8CE4ECA15}|QuanLyLop\\QuanLyLop.csproj|f:\\learn_c#\\learning_c-\\bai_tap_lap05\\quanlylop\\quanlylop\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1C633CC-63C6-317A-2C99-94A8CE4ECA15}|QuanLyLop\\QuanLyLop.csproj|solutionrelative:quanlylop\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "F:\\Learn_C#\\Learning_C-\\Bai_Tap_Lap05\\QuanLyLop\\QuanLyLop\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "QuanLyLop\\Form1.Designer.cs",
@@ -34,8 +34,7 @@
               "RelativeToolTip": "QuanLyLop\\Form1.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-12T09:17:24.065Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-12T09:17:24.065Z"
             },
             {
               "$type": "Document",
@@ -43,24 +42,23 @@
               "Title": "Form1.cs",
               "DocumentMoniker": "F:\\Learn_C#\\Learning_C-\\Bai_Tap_Lap05\\QuanLyLop\\QuanLyLop\\Form1.cs",
               "RelativeDocumentMoniker": "QuanLyLop\\Form1.cs",
-              "ToolTip": "F:\\Learn_C#\\Learning_C-\\Bai_Tap_Lap05\\QuanLyLop\\QuanLyLop\\Form1.cs*",
-              "RelativeToolTip": "QuanLyLop\\Form1.cs*",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAowBgAAAAJAAAAAAAAAA==",
+              "ToolTip": "F:\\Learn_C#\\Learning_C-\\Bai_Tap_Lap05\\QuanLyLop\\QuanLyLop\\Form1.cs",
+              "RelativeToolTip": "QuanLyLop\\Form1.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowBAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-12T09:17:14.049Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "F:\\Learn_C#\\Learning_C-\\Bai_Tap_Lap05\\QuanLyLop\\QuanLyLop\\Form1.cs",
               "RelativeDocumentMoniker": "QuanLyLop\\Form1.cs",
-              "ToolTip": "F:\\Learn_C#\\Learning_C-\\Bai_Tap_Lap05\\QuanLyLop\\QuanLyLop\\Form1.cs [Design]*",
-              "RelativeToolTip": "QuanLyLop\\Form1.cs [Design]*",
+              "ToolTip": "F:\\Learn_C#\\Learning_C-\\Bai_Tap_Lap05\\QuanLyLop\\QuanLyLop\\Form1.cs [Design]",
+              "RelativeToolTip": "QuanLyLop\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-12T09:12:45.551Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-10-12T09:12:45.551Z"
             }
           ]
         }

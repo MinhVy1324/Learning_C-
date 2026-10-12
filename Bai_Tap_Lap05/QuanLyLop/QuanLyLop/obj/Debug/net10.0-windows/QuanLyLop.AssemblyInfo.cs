@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QuanLyLop")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+47c0192f4ba2013ac3b60a77a9faa5987cb4ecb3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f553a241c7d5c34523894c64a0612c0b86ce81f3")]
 [assembly: System.Reflection.AssemblyProductAttribute("QuanLyLop")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QuanLyLop")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
