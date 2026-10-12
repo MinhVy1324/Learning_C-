@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <Project Path="Baitap4_1/Baitap4_1.csproj" />
+  </Folder>
+  <Project Path="Baitap2_1/Baitap2_1.csproj" />
+  <Project Path="Baitap2_2/Baitap2_2.csproj" />
+  <Project Path="Baitap3_1/Baitap3_1.csproj" />
+  <Project Path="Baitap3_2/Baitap3_2.csproj" />
+  <Project Path="Baitap5_1/Baitap5_1.csproj" />
+  <Project Path="Baitap5_2/Baitap5_2.csproj" />
+  <Project Path="Baitap6_1/Baitap6_1.csproj" />
+  <Project Path="Baitap6_2/Baitap6_2.csproj" />
+</Solution>

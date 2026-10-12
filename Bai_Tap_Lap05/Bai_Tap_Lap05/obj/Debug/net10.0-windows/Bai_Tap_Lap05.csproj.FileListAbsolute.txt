@@ -1,0 +1,7 @@
+F:\Learn_C#\Learning_C-\Bai_Tap_Lap05\Bai_Tap_Lap05\obj\Debug\net10.0-windows\Bai_Tap_Lap05.Form1.resources
+F:\Learn_C#\Learning_C-\Bai_Tap_Lap05\Bai_Tap_Lap05\obj\Debug\net10.0-windows\Bai_Tap_Lap05.csproj.GenerateResource.cache
+F:\Learn_C#\Learning_C-\Bai_Tap_Lap05\Bai_Tap_Lap05\obj\Debug\net10.0-windows\Bai_Tap_Lap05.GeneratedMSBuildEditorConfig.editorconfig
+F:\Learn_C#\Learning_C-\Bai_Tap_Lap05\Bai_Tap_Lap05\obj\Debug\net10.0-windows\Bai_Tap_Lap05.AssemblyInfoInputs.cache
+F:\Learn_C#\Learning_C-\Bai_Tap_Lap05\Bai_Tap_Lap05\obj\Debug\net10.0-windows\Bai_Tap_Lap05.AssemblyInfo.cs
+F:\Learn_C#\Learning_C-\Bai_Tap_Lap05\Bai_Tap_Lap05\obj\Debug\net10.0-windows\Bai_Tap_Lap05.csproj.CoreCompileInputs.cache
+F:\Learn_C#\Learning_C-\Bai_Tap_Lap05\Bai_Tap_Lap05\obj\Debug\net10.0-windows\Bai_Tap_Lap05.sourcelink.json

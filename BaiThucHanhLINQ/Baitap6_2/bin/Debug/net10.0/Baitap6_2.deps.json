@@ -1,0 +1,53 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Baitap6_2/1.0.0": {
+        "dependencies": {
+          "Baitap4_1": "1.0.0",
+          "Baitap6_1": "1.0.0"
+        },
+        "runtime": {
+          "Baitap6_2.dll": {}
+        }
+      },
+      "Baitap4_1/1.0.0": {
+        "runtime": {
+          "Baitap4_1.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Baitap6_1/1.0.0": {
+        "runtime": {
+          "Baitap6_1.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Baitap6_2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Baitap4_1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Baitap6_1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
